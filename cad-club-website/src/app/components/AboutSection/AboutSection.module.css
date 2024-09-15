@@ -1,0 +1,42 @@
+/* styles/components/AboutSection.module.scss */
+.about {
+  padding: 60px 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.aboutHeading {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.aboutParagraph {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.featureHeading {
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.featureParagraph {
+  font-size: 0.95rem;
+}

@@ -1,0 +1,39 @@
+/* styles/components/HeroSection.module.css */
+
+.hero {
+  background: url("background.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  text-decoration: none; /* Add this to remove the default underline for links */
+}
+
+.ctaButton:hover {
+  background-color: #0b5ed7;
+}

@@ -1,0 +1,44 @@
+/* styles/components/TeamSection.module.css */
+
+.team {
+  padding: 60px 30px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 40px;
+}
+
+.teamGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.memberCard {
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+}
+
+.memberCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.memberCard h3 {
+  font-size: 1.2rem;
+  color: #212529;
+  margin-bottom: 5px;
+}
+
+.memberCard p {
+  font-size: 1rem;
+  color: #6c757d;
+}

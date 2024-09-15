@@ -1,0 +1,31 @@
+/* styles/components/GallerySection.module.css */
+
+.gallery {
+  padding: 60px 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.galleryHeading {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 40px;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image {
+  width: 100%; /* Fill the width of the wrapper */
+  height: 100%; /* Ensure the height matches the container */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+  transition: transform 0.3s;
+}

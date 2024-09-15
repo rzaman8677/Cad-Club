@@ -1,0 +1,76 @@
+/* styles/components/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.menuIcon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li {
+  margin-left: 20px;
+}
+
+.navLinks li a {
+  color: #212529;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.navLinks li a:hover {
+  color: #0d6efd;
+}
+
+.navLinks li a.activeLink {
+  color: #0d6efd;
+  font-weight: bold;
+  border-bottom: 2px solid #0d6efd;
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .navLinks li {
+    margin: 15px 0;
+    text-align: center;
+  }
+}

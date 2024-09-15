@@ -1,0 +1,22 @@
+/* styles/pages/AboutPage.module.scss */
+.aboutPage {
+  padding: 80px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading1 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+  font-size: 3rem; /* You can modify font size as needed */
+}
+
+.heading2 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}

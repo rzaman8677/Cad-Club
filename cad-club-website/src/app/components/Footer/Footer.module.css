@@ -1,0 +1,13 @@
+/* styles/components/Footer.module.scss */
+
+.footer {
+  background-color: #0d6efd;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 0.9rem;
+}

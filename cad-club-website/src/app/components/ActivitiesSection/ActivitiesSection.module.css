@@ -1,0 +1,44 @@
+/* styles/components/ActivitiesSection.module.scss */
+
+.activities {
+  padding: 60px 30px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.activitiesHeading {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 40px;
+}
+
+.activityGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activityCard {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.activityTitle {
+  font-size: 1.2rem;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.activityDescription {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
