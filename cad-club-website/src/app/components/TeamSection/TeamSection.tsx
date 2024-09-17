@@ -13,9 +13,14 @@ const members = [
     image: "/images/jacob.jpg",
   },
   {
+    name: "James Li",
+    role: "Vice President",
+    image: "/images/james.jpg",
+  },
+  {
     name: "Ayush Ghosh",
     role: "Member at Large",
-    image: "/images/placeholder.jpg",
+    image: "/images/ayush.jpg",
   },
   {
     name: "Daud Idrees",
